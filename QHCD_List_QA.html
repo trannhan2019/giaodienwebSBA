@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SBA-Hỏi đáp</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="bootstrap4/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+	<script src="bootstrap4/dist/js/jquery-3.4.1.min.js"></script>
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+	<script src="bootstrap4/dist/js/popper.min.js"></script>
+
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+	<script src="bootstrap4/dist/js/bootstrap.min.js"></script>
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/style_v2.css">
+	<script type="text/javascript" src="js/my.js"></script>
+</head>
+<body class="bg-light">
+	<!-- header -->
+	<div class="header">
+		<div class="header_login">
+			<div class="container text-right align-middle p-1">
+				<ul class="list-inline mb-0">
+					<li class="list-inline-item">
+						<a href="#" title="Trang chủ">
+							<i class="fas fa-home"></i>
+						</a>
+					</li>
+					<li class="list-inline-item header_login_divide">|</li>
+					<li class="list-inline-item">
+						<a href="#" title="Đăng nhập">
+							<i class="fas fa-sign-in-alt"></i>
+						</a>
+					</li>
+					<li class="list-inline-item header_login_divide">|</li>
+					<li class="list-inline-item">
+						<a href="#" title="Đăng xuất">
+							<i class="fas fa-sign-out-alt"></i>
+						</a>
+					</li>
+					<li class="list-inline-item header_login_divide">|</li>
+				</ul>
+			</div>
+		</div>
+		<hr class="my-1 border border-secondary">
+	</div>
+	<!-- header -->
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a href="Trangchu.html" class="navbar-brand p-0" title="Home">
+				<img src="img/LOGO.png" class="LOGO img-fluid" alt="LOGO_SBA">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav m-auto">
+					<!-- Dropdown -->
+					<li class="nav-item dropdown ml-2">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+							GIỚI THIỆU
+						</a>
+						<div class="dropdown-menu p-0 dropdown-content">
+							<a class="dropdown-item px-3" href="#">Giới thiệu chung</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Cơ cấu tổ chức</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Ban điều hành</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Phòng ban</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Lĩnh vực hoạt động</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Các dự án</a>
+							<!-- <a class="dropdown-item" href="#">Điều lệ Công ty</a> -->
+						</div>
+					</li>
+					<li class="nav-item dropdown ml-2">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+							TIN TỨC
+						</a>
+						<div class="dropdown-menu dropdown-content p-0">
+							<a class="dropdown-item px-3" href="#"> Thông tin hoạt động</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Đảng - Đoàn thể</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Bài viết SBA</a>
+							<!-- <div class="dropdown-divider my-0"></div> -->
+							<!-- <a class="dropdown-item px-3" href="#">Kỷ niệm SBA</a> -->
+						</div>
+					</li>
+					<li class="nav-item dropdown ml-2">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+							QUAN HỆ CỔ ĐÔNG
+						</a>
+						<div class="dropdown-menu dropdown-content p-0">
+							<a class="dropdown-item px-3" href="#">Thông báo cổ đông</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="QHCD_CON.html">Báo cáo tài chính</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Báo cáo thường niên</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Công bố thông tin</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Đại hội đồng cổ đông</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Tình hình quản trị</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Điều lệ, Quy chế</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Ý kiến - Trả lời</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown ml-2">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+							CÔNG NGHỆ SBA
+						</a>
+						<div class="dropdown-menu dropdown-content p-0">
+							<a class="dropdown-item px-3" href="#">Quan trắc</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Vận hành lũ</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown ml-2">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+							TUYỂN DỤNG
+						</a>
+						<div class="dropdown-menu dropdown-content p-0">
+							<a class="dropdown-item px-3" href="#">Tin tuyển dụng</a>
+							<div class="dropdown-divider my-0"></div>
+							<a class="dropdown-item px-3" href="#">Chính sách tuyển dụng</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link mx-2" href="#">LIÊN HỆ</a>
+					</li>
+
+					<form class="form-inline ml-2 ml-lg-3" action="#">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Tìm kiếm..." aria-label="Tìm kiếm ...">
+							<div class="input-group-append">
+								<button class="btn btn-outline-primary" type="submit">
+									<i class="fas fa-search"></i>
+								</button>
+							</div>
+						</div>
+					</form>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Navigation -->
+	<div class="QHCD">
+		<!-- Breadcrums -->
+		<div class="QHCD_breadcrumb">
+			<nav aria-label="breadcrumb" class="container">
+				<ol class="breadcrumb row">
+					<li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+					<li class="breadcrumb-item"><a href="#">Quan hệ cổ đông</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Ý kiến - Trả lời</li>	
+				</ol>
+			</nav>
+		</div>
+		<!-- Phan noi dung -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="QHCD_list col-12">
+							<p class="font-weight-bold my-1">Câu hỏi: </p>
+							<p class="my-0 text-justify">
+								Cổ đông xin kính chào và kinh chúc sức khỏe các thành viên HĐQT cũng như toàn thể cán bộ nhân viên công ty. Chỉ còn ít ngày nữa là kết thúc năm 2019, đa số các công ty cổ phần mà tôi có tham gia đầu tư đều đã tạm ứng cổ tức 2019 cho cổ đông. Tôi rất vui khi hết tháng 11 2019 công ty mình làm ăn có lãi vượt kế hoạch đặt ra. Vì vậy tôi kiến nghị Hội đồng Quản trị công ty xem xét tạm ứng một phần cổ tức của 2019 cho cổ đông để cổ đông có tiền chi tiêu. Kính mong HĐQT công ty xem xét nguyện vọng của cổ đông. Tôi xin trân trọng cảm ơn và một lần nữa xin kính chúc sức khỏe các thành viên HĐQT và tập thể cán bộ nhân viên công ty.
+							</p>
+							<p>
+								<small>
+									<i class="far fa-calendar-alt"></i>  <span class="font-weight-bold">18/12/2019 10:00</span>
+									 -  
+									<i class="fas fa-user-tie"></i>  <span class="font-weight-bold">L.T.Phương</span>
+									 -  
+									<i class="far fa-eye"></i> : <span class="font-weight-bold">100</span>
+								</small>
+							</p>
+							<p class="font-weight-bold my-0">Trả lời: 
+							</p>
+							<a href="#" class="text-primary">Xem chi tiết nội dung trả lời...</a>
+						</div>
+					</div>
+					<hr class="w-100 border-secondary my-2">
+
+					<div class="row">
+						<div class="QHCD_list col-12">
+							<p class="font-weight-bold my-1">Câu hỏi: </p>
+							<p class="my-0 text-justify">
+								Cổ đông xin kính chào và kinh chúc sức khỏe các thành viên HĐQT cũng như toàn thể cán bộ nhân viên công ty. Chỉ còn ít ngày nữa là kết thúc năm 2019, đa số các công ty cổ phần mà tôi có tham gia đầu tư đều đã tạm ứng cổ tức 2019 cho cổ đông. Tôi rất vui khi hết tháng 11 2019 công ty mình làm ăn có lãi vượt kế hoạch đặt ra. Vì vậy tôi kiến nghị Hội đồng Quản trị công ty xem xét tạm ứng một phần cổ tức của 2019 cho cổ đông để cổ đông có tiền chi tiêu. Kính mong HĐQT công ty xem xét nguyện vọng của cổ đông. Tôi xin trân trọng cảm ơn và một lần nữa xin kính chúc sức khỏe các thành viên HĐQT và tập thể cán bộ nhân viên công ty.
+							</p>
+							<p>
+								<small>
+									<i class="far fa-calendar-alt"></i>  <span class="font-weight-bold">18/12/2019 10:00</span>
+									 -  
+									<i class="fas fa-user-tie"></i>  <span class="font-weight-bold">L.T.Phương</span>
+									 -  
+									<i class="far fa-eye"></i> : <span class="font-weight-bold">100</span>
+								</small>
+							</p>
+							<p class="font-weight-bold my-0">Trả lời: 
+							</p>
+							<a href="#" class="text-primary">Xem chi tiết nội dung trả lời...</a>
+						</div>
+					</div>
+					<hr class="w-100 border-secondary my-2">
+
+					<div class="row">
+						<div class="QHCD_list col-12">
+							<p class="font-weight-bold my-1">Câu hỏi: </p>
+							<p class="my-0 text-justify">
+								Cổ đông xin kính chào và kinh chúc sức khỏe các thành viên HĐQT cũng như toàn thể cán bộ nhân viên công ty. Chỉ còn ít ngày nữa là kết thúc năm 2019, đa số các công ty cổ phần mà tôi có tham gia đầu tư đều đã tạm ứng cổ tức 2019 cho cổ đông. Tôi rất vui khi hết tháng 11 2019 công ty mình làm ăn có lãi vượt kế hoạch đặt ra. Vì vậy tôi kiến nghị Hội đồng Quản trị công ty xem xét tạm ứng một phần cổ tức của 2019 cho cổ đông để cổ đông có tiền chi tiêu. Kính mong HĐQT công ty xem xét nguyện vọng của cổ đông. Tôi xin trân trọng cảm ơn và một lần nữa xin kính chúc sức khỏe các thành viên HĐQT và tập thể cán bộ nhân viên công ty.
+							</p>
+							<p>
+								<small>
+									<i class="far fa-calendar-alt"></i>  <span class="font-weight-bold">18/12/2019 10:00</span>
+									&emsp;- &emsp;
+									<i class="fas fa-user-tie"></i>  <span class="font-weight-bold">L.T.Phương</span>
+									&emsp;-&emsp; 
+									<i class="far fa-eye"></i> : <span class="font-weight-bold">100</span>
+								</small>
+							</p>
+							<p class="font-weight-bold my-0">Trả lời: 
+							</p>
+							<a href="#" class="text-primary">Xem chi tiết nội dung trả lời...</a>
+						</div>
+					</div>
+					<hr class="w-100 border-secondary my-2">
+
+					<div class="row">
+						<div class="QHCD_list col-12">
+							<p class="font-weight-bold my-1">Câu hỏi: </p>
+							<p class="my-0 text-justify">
+								Cổ đông xin kính chào và kinh chúc sức khỏe các thành viên HĐQT cũng như toàn thể cán bộ nhân viên công ty. Chỉ còn ít ngày nữa là kết thúc năm 2019, đa số các công ty cổ phần mà tôi có tham gia đầu tư đều đã tạm ứng cổ tức 2019 cho cổ đông. Tôi rất vui khi hết tháng 11 2019 công ty mình làm ăn có lãi vượt kế hoạch đặt ra. Vì vậy tôi kiến nghị Hội đồng Quản trị công ty xem xét tạm ứng một phần cổ tức của 2019 cho cổ đông để cổ đông có tiền chi tiêu. Kính mong HĐQT công ty xem xét nguyện vọng của cổ đông. Tôi xin trân trọng cảm ơn và một lần nữa xin kính chúc sức khỏe các thành viên HĐQT và tập thể cán bộ nhân viên công ty.
+							</p>
+							<p>
+								<small>
+									<i class="far fa-calendar-alt"></i>  <span class="font-weight-bold">18/12/2019 10:00</span>
+									 -  
+									<i class="fas fa-user-tie"></i>  <span class="font-weight-bold">L.T.Phương</span>
+									 -  
+									<i class="far fa-eye"></i> : <span class="font-weight-bold">100</span>
+								</small>
+							</p>
+							<p class="font-weight-bold my-0">Trả lời: 
+							</p>
+							<a href="#" class="text-primary">Xem chi tiết nội dung trả lời...</a>
+						</div>
+					</div>
+					<hr class="w-100 border-secondary my-2">
+
+					<div class="row">
+						<div class="QHCD_list col-12">
+							<p class="font-weight-bold my-1">Câu hỏi: </p>
+							<p class="my-0 text-justify">
+								Cổ đông xin kính chào và kinh chúc sức khỏe các thành viên HĐQT cũng như toàn thể cán bộ nhân viên công ty. Chỉ còn ít ngày nữa là kết thúc năm 2019, đa số các công ty cổ phần mà tôi có tham gia đầu tư đều đã tạm ứng cổ tức 2019 cho cổ đông. Tôi rất vui khi hết tháng 11 2019 công ty mình làm ăn có lãi vượt kế hoạch đặt ra. Vì vậy tôi kiến nghị Hội đồng Quản trị công ty xem xét tạm ứng một phần cổ tức của 2019 cho cổ đông để cổ đông có tiền chi tiêu. Kính mong HĐQT công ty xem xét nguyện vọng của cổ đông. Tôi xin trân trọng cảm ơn và một lần nữa xin kính chúc sức khỏe các thành viên HĐQT và tập thể cán bộ nhân viên công ty.
+							</p>
+							<p>
+								<small>
+									<i class="far fa-calendar-alt"></i>  <span class="font-weight-bold">18/12/2019 10:00</span>
+									 -  
+									<i class="fas fa-user-tie"></i>  <span class="font-weight-bold">L.T.Phương</span>
+									 -  
+									<i class="far fa-eye"></i> : <span class="font-weight-bold">100</span>
+								</small>
+							</p>
+							<p class="font-weight-bold my-0">Trả lời: 
+							</p>
+							<a href="#" class="text-primary">Xem chi tiết nội dung trả lời...</a>
+						</div>
+					</div>
+					<hr class="w-100 border-secondary my-2">
+
+					<div class="row">
+						<div class="QHCD_list col-12">
+							<p class="font-weight-bold my-1">Câu hỏi: </p>
+							<p class="my-0 text-justify">
+								Cổ đông xin kính chào và kinh chúc sức khỏe các thành viên HĐQT cũng như toàn thể cán bộ nhân viên công ty. Chỉ còn ít ngày nữa là kết thúc năm 2019, đa số các công ty cổ phần mà tôi có tham gia đầu tư đều đã tạm ứng cổ tức 2019 cho cổ đông. Tôi rất vui khi hết tháng 11 2019 công ty mình làm ăn có lãi vượt kế hoạch đặt ra. Vì vậy tôi kiến nghị Hội đồng Quản trị công ty xem xét tạm ứng một phần cổ tức của 2019 cho cổ đông để cổ đông có tiền chi tiêu. Kính mong HĐQT công ty xem xét nguyện vọng của cổ đông. Tôi xin trân trọng cảm ơn và một lần nữa xin kính chúc sức khỏe các thành viên HĐQT và tập thể cán bộ nhân viên công ty.
+							</p>
+							<p>
+								<small>
+									<i class="far fa-calendar-alt"></i>  <span class="font-weight-bold">18/12/2019 10:00</span>
+									 -  
+									<i class="fas fa-user-tie"></i>  <span class="font-weight-bold">L.T.Phương</span>
+									 -  
+									<i class="far fa-eye"></i> : <span class="font-weight-bold">100</span>
+								</small>
+							</p>
+							<p class="font-weight-bold my-0">Trả lời: 
+							</p>
+							<a href="#" class="text-primary">Xem chi tiết nội dung trả lời...</a>
+						</div>
+					</div>
+					<hr class="w-100 border-secondary my-2">
+					<!-- Phan trang -->
+					<nav aria-label="Page navigation example">
+						<ul class="pagination justify-content-center">
+							<li class="page-item disabled">
+								<a class="page-link" href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+									<span class="sr-only">Previous</span>
+								</a>
+							</li>
+							<li class="page-item active"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+									<span class="sr-only">Next</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- FORM NHAP Y KIEN CO DONG -->
+					<div class="row">
+						<div class="col-12 rounded submit-ykien">
+							<h6 class="font-weight-bold my-2">GỬI Ý KIẾN</h6>
+							<div class="">
+								<form action="#" method="get" accept-charset="utf-8" class="my-2 col-12">
+									<div class="form-group row">
+										<label for="fullname" class="col-sm-2 col-form-label form-control-sm">Họ và tên (*) </label>
+										<div class="col-sm-10 input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="fas fa-user-tie"></i></span>
+											</div>
+											<input type="text" class="form-control form-control-sm" id="fullname" placeholder="Họ và tên...">
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="phone" class="col-sm-2 col-form-label form-control-sm">Số điện thoại (*)</label>
+										<div class="col-sm-10 input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="fas fa-mobile-alt"></i></span>
+											</div>
+											<input type="text" class="form-control form-control-sm" id="phone" placeholder="Số điện thoại...">
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="email" class="col-sm-2 col-form-label form-control-sm">Email (*)</label>
+										<div class="col-sm-10 input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+											</div>
+											<input type="email" class="form-control form-control-sm" id="email" placeholder="Email...">
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="address" class="col-sm-2 col-form-label form-control-sm">Địa chỉ (*)</label>
+										<div class="col-sm-10 input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="fas fa-home"></i></span>
+											</div>
+											<input type="text" class="form-control form-control-sm" id="address" placeholder="Địa chỉ...">
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="ykien" class="col-sm-2 col-form-label form-control-sm">Nội dung ý kiến</label>
+										<div class="col-sm-10">
+											<textarea name="" rows="7" id="ykien" class="form-control"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col text-center">
+											<button type="submit" class="btn btn-primary d-inline mx-auto">Gửi thông tin</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-4 pl-md-4">
+					<div class="row">
+						<!-- công bố thông tin -->
+						<div class="border shadow col-12 p-0">
+							<div class="title_cbtt text-center py-3">
+								<h6 class="m-0">BÀI VIẾT MỚI NHẤT</h6>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										SBA hoàn thành kế hoạch sản lượng, doanh thu năm 2019.
+									</p>
+								</a>
+								<p class="m-0">
+									<small>
+										<i class="far fa-calendar-alt"></i>: 31/12/2019 
+									</small>
+								</p>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										SBA tiếp tục được xếp trong TOP 100 Doanh nghiệp bền vững năm 2019 của Việt Nam.
+									</p>
+								</a>
+								<p class="m-0">
+									<small><i class="far fa-calendar-alt"></i>: 31/12/2019</small>
+								</p>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										Giải trình chênh lệch kết quả kinh doanh quý 3/2019 so với quý 3/2018.
+									</p>
+								</a>
+								<p class="m-0">
+									<small><i class="far fa-calendar-alt"></i>: 31/12/2019</small>
+								</p>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										Giải trình chênh lệch kết quả kinh doanh quý 3/2019 so với quý 3/2018.
+									</p>
+								</a>
+								<p class="m-0">
+									<small><i class="far fa-calendar-alt"></i>: 31/12/2019</small>
+								</p>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										Giải trình chênh lệch kết quả kinh doanh quý 3/2019 so với quý 3/2018.
+									</p>
+								</a>
+								<p class="m-0">
+									<small><i class="far fa-calendar-alt"></i>: 31/12/2019</small>
+								</p>
+							</div>
+						</div>
+						<!-- thông báo cho cổ đông -->
+						<div class="border shadow col-12 p-0 mt-4">
+							<div class="title_cbtt text-center py-3">
+								<h6 class="m-0">BÀI VIẾT XEM NHIỀU</h6>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										SBA tiếp tục được xếp trong TOP 100 Doanh nghiệp bền vững năm 2019 của Việt Nam.
+									</p>
+								</a>
+								<p class="m-0">
+									<small>
+										<i class="far fa-calendar-alt"></i>: 31/12/2019
+										&nbsp;
+										<i class="far fa-eye"></i> 300
+									</small>
+								</p>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										SBA tiếp tục được xếp trong TOP 100 Doanh nghiệp bền vững năm 2019 của Việt Nam.
+									</p>
+								</a>
+								<p class="m-0">
+									<small><i class="far fa-calendar-alt"></i>: 31/12/2019</small>
+								</p>
+							</div>
+							<div class="list_cbtt px-4 py-2 text-justify">
+								<a href="#">
+									<p class="m-0">	
+										Thông báo Về ngày đăng ký cuối cùng thực hiện quyền chi trả cổ tức năm 2018 bằng tiền.
+									</p>
+								</a>
+								<p class="m-0">
+									<small><i class="far fa-calendar-alt"></i>: 31/12/2019</small>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="mt-3">
+		<div class="container-fluid">
+			<div class="row p-3">
+				<div class="col-md-12 text-center">
+					<h6 class="font-weight-bold">BẢN QUYỀN &copy; THUỘC CÔNG TY CỔ PHẦN SÔNG BA</h6>
+					<p class="m-0">Địa chỉ: 573 Núi Thành, quận Hải Châu, thành phố Đà Nẵng
+						<br>
+						Điện thoại: 0236.3653592 - 0236.2215592
+						<br>
+						Fax: 0236.3653593
+						<br>
+						Email: sba2007@songba.vn
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER -->
+	<!-- button top -->
+	<!-- <a href="#" class="cd-top">Back To Top</a> -->
+	<a class="on_top" href="#" style="display: block;"><i class="fa-arrow-circle-up fa"></i></a>
+	<!-- button top -->
+</body>
+</html>
